@@ -11,9 +11,9 @@ public class ApplicationController {
 		return "index";
 	}
 	
-	@GetMapping("/users-profile")
+	@GetMapping("/index2")
 	public String users() {
-		return "users-profile";
+		return "index2";
 	}
 	
 	
